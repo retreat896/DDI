@@ -1,0 +1,70 @@
+pet_name,pet_type,pet_age,virtual_pet,has_fur,owner
+Antu,cat,1,FALSE,TRUE,Ashrafuzzaman
+Sukka,cat,5,FALSE,TRUE,Ellis
+Miso,cat,1,FALSE,TRUE,Darren`
+Lily,dog,10,FALSE,TRUE,Bryce
+Leia,cat,3,FALSE,TRUE,Alex
+Lily,fish,100,TRUE,TRUE,James M
+Hoss,dog,11,FALSE,TRUE,Black
+Beans,cat,1,FALSE,TRUE,Tristan
+Java,sheep,0.005,FALSE,FALSE,Nolan
+Penny,dog,4,FALSE,TRUE,Grisar
+Morgan,Dog,4,FALSE,TRUE,Connor C
+Brandi,Dog,2,FALSE,TRUE,Adelia
+Nellie,dog,3,FALSE,TRUE,Grisar
+Cookie,cat,4,FALSE,TRUE,Lucas
+Tiger,Cat,6,FALSE,TRUE,Parents
+Ruby,Dog,2,FALSE,TRUE,Parents
+Artemis,Cat,1,FALSE,TRUE,Mildebrandt
+Hunter,cat,8,FALSE,TRUE,Grisar
+Cookie,Dog,4,FALSE,TRUE,Jasmine
+Rocky,chinchilla,2,FALSE,TRUE,
+Godzilla,Lizard,250000000,TRUE,FALSE,God
+Carlos,Capybara,123,FALSE,TRUE,Dude
+Luna,Dog,0.5,TRUE,FALSE,Jasmine
+Jay,sheep,2,TRUE,TRUE,Ander 
+Rabbit,Dog,1,TRUE,TRUE,Sumit
+Dobby,House Elf,500,TRUE,FALSE,Dobby is Free
+Pixel,Cat,5,FALSE,TRUE,cabbage
+Josie,Cat,15,FALSE,TRUE,William
+Zephyr,Dog,3,FALSE,TRUE,Garrett
+Ollie,Dog,0.75,FALSE,TRUE,Dylan
+Wanda,Dog,2,FALSE,TRUE,Jason
+Greg,Capybara,4,TRUE,TRUE,Max
+Simon,Cat,9,FALSE,TRUE,Reese
+Emmy,Dog,4,FALSE,TRUE,Collin
+Frank,Cat,4,FALSE,TRUE,Nico
+Kung-Fu,Cat,12,FALSE,TRUE,Brody
+Sunny,Dog,5,FALSE,TRUE,Andre
+Finnick,Chinchilla,5,FALSE,TRUE,Brady 
+Po,Panda,15,TRUE,TRUE,Jack M
+Larry,Fish,1,TRUE,FALSE,Jacob R
+King,Dog,6,FALSE,TRUE,Trey R
+Kaia,Dog,4,FALSE,TRUE,Noah
+Guinness,Dog,4,FALSE,TRUE,Noah
+Ruby,Iguana,11,FALSE,FALSE,Benjamin
+Sturgis,Dog,9,FALSE,TRUE,Joseph R
+Albert,Cat,1,FALSE,TRUE,Nathan L
+Izzy,Dog,9,FALSE,TRUE,Sam S
+Jackson,Dog,10,TRUE,TRUE,Justin E
+Nigel,Leopard Gecko,7,FALSE,FALSE,
+Oliver,Bird,5,FALSE,FALSE,Nathan
+Duke,Dog,12,FALSE,TRUE,AnnaLynn S
+Jaws,Shark,4,TRUE,FALSE,Erik Leeser
+Sans,Dog,6,FALSE,TRUE,Madeline Gerbitz
+Bell,Dog,6,FALSE,TRUE,Madeline Gerbitz
+Buster,Dog,15,FALSE,TRUE,Charles
+Turbo,Dog,1,FALSE,TRUE,Zach Vivian
+SnowBall,West highland terrior,5,FALSE,TRUE,Andrew Vonderhaar
+Acadia,Dog,0.3,FALSE,TRUE,Gabe Sebben
+Gretzky,Dog,8,FALSE,TRUE,Thomas
+Shrek,Cow,1,FALSE,TRUE,Logan Judd
+Oliver,Cat (snowshoe),3,FALSE,TRUE,Carter R
+Cheese,Hamster,2,FALSE,TRUE,Ethan C
+Charlie,Dog,12,FALSE,TRUE,Knaup
+Donkey,Donkey,20,TRUE,TRUE,Elizabeth the Dragoness
+Buba,Fish,1,FALSE,FALSE,Jacob B
+Jacob ,Human,20,FALSE,FALSE,Buba
+Jerry,Fish,2,FALSE,FALSE,Jacob B
+Pascal,Cameleon,12,TRUE,FALSE,Isaac N
+Fio,Dog,15,FALSE,TRUE,John Kessenich
