@@ -1,5 +1,5 @@
-CREATE SCHEMA orders_db_<your_initials> AUTHORIZATION <username>;
-SET search_path TO orders_db_<your_initials>;
+CREATE SCHEMA orders_db_ka AUTHORIZATION adamskri;
+SET search_path TO orders_db_ka;
 SHOW search_path;
 
 
