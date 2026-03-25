@@ -1,0 +1,13 @@
+services:
+  # pgAdmin 4 Service
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: retreat896@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: GameEnjoyer2026.
+    ports:
+      - "30024:80"            
+    depends_on:
+      - db
+    restart: always
