@@ -13,7 +13,7 @@ ORDER BY orders.id DESC;
 
 -- 2. Select the email of users who have contents in their bags. Order by the user id ASC.
 SELECT email 
-FROM users WHERE id IN (SELECT user_id FROM bags) ORDER BY id ASC;
+FROM users WHERE id IN (SELECT user_id FROM bag_contents) ORDER BY id ASC;
 
 
     -- Medium:
@@ -67,10 +67,8 @@ FROM orders
 GROUP BY users.email 
 ORDER BY COUNT(orders.id) DESC;
 
-SELECT * FROM users_with_orders;
-
 -- 2. Write SQL command to grant read privilege to one of your classmates on the view.
-GRANT SELECT ON users_with_orders TO <other_user>;
+GRANT SELECT ON users_with_orders TO mallandj;
 
 
 
