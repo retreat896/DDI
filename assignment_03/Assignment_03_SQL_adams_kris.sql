@@ -96,6 +96,31 @@ CALL insert_item_type('Sunglasses');
 --     function will read the results from the cursor and will construct a text that will print
 --     out the results record by record in separate lines
 
+CREATE OR REPLACE FUNCTION print_in_stock()
+RETURNS TEXT
+LANGUAGE PLPGSQL
+AS $proc$
+DECLARE
+    item_data RECORD;
+    result TEXT DEFAULT '';
+    items_cursor CURSOR FOR 
+        SELECT item_name, price, item_stock.number_in_stock
+        FROM items
+        INNER JOIN item_stock ON items.id = item_stock.item_id
+        WHERE item_stock.number_in_stock > 0;
+BEGIN
+    OPEN items_cursor;
+    LOOP
+        FETCH items_cursor INTO item_data;
+        EXIT WHEN NOT FOUND;
+        result := result || 'Item Name: ' || item_data.item_name || ', Price: ' || item_data.price || ', Stock: ' || item_data.number_in_stock || E'\n';
+    END LOOP;
+    CLOSE items_cursor;
+    RETURN result;
+END
+$proc$ ;
+
+SELECT print_in_stock();
 
 --  3. Create a trigger and associated trigger function that will change the value of
 --     column “deleted” to TRUE when a row in the items table is deleted. The delete
