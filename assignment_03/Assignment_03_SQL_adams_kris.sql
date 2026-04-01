@@ -127,5 +127,22 @@ SELECT print_in_stock();
 --     operation will not physically delete the row, rather will change value of “deleted”
 --     column to TRUE.
 
+CREATE OR REPLACE FUNCTION mark_delete()
+RETURNS TRIGGER
+LANGUAGE PLPGSQL
+AS $proc$
+BEGIN
+    UPDATE items SET deleted = TRUE WHERE id = OLD.id;
+    RETURN NULL;
+END;
+$proc$;
 
 
+-- Create the trigger when a delete occurs on the items table.
+CREATE TRIGGER mark_delete_trigger
+BEFORE DELETE ON items
+FOR EACH ROW
+EXECUTE FUNCTION mark_delete();
+
+DELETE FROM items WHERE id = 1;
+SELECT * FROM items WHERE id = 1;
