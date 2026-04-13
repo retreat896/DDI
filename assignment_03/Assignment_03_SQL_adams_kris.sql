@@ -137,8 +137,6 @@ BEGIN
 END;
 $proc$;
 
-
--- Create the trigger when a delete occurs on the items table.
 CREATE TRIGGER mark_delete_trigger
 BEFORE DELETE ON items
 FOR EACH ROW
